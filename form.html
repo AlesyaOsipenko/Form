@@ -18,10 +18,11 @@
 <body>
     <form class="form">
         <div class="header">
+            <button class="header__btn"></button>
             <div class="header__top">
                 <ul class="breadcrumbs">
-                    <li class="visited"><a href="">Главная</a></li>
-                    <li class="visited"><a href="">Контакты</a></li>
+                    <li class="visited"><a>Главная</a></li>
+                    <li class="visited"><a>Контакты</a></li>
                     <li class="current"><a href="">Форма обратной связи</a></li>
                 </ul>
                 <h1 class="form__title">Форма обратной связи</h1>
@@ -30,21 +31,22 @@
 
         <div class="main">
             <div class="main__inner">
-                <input type="text" id="name" placeholder="Иванов Иван Иванович">
-                <input type="email" id="email" placeholder="Введите Ваш Email">
-                <input type="text" id="name" placeholder="Введите Ваш телефон">
-                <input type="text" id="name" placeholder="Введите Ваш телефон">
+                <input class="text input--active" type="text" id="name" placeholder="Иванов Иван Иванович">
+                <input class="text input--active" type="email" id="email" placeholder="Введите Ваш Email">
+                <input class="text input--active" type="text" id="name" placeholder="Введите Ваш телефон">
+                <textarea class="text input--active" type="text" id="name" placeholder="Введите Ваш телефон"></textarea>
             </div>
         </div>
 
         <div class="footer">
             <div class="footer__wrapper">
                 <div class="footer__inner">
-                    <input type="text" id="name">
+                    <input class="footer__input input--active" type="text" id="name">
                     <a class="label" href="">Введите код на картинке справа</a>
                 </div>
                 <img class="form__img" src="./css/assets/images/capcha.png" alt="#">
             </div>
+            <button class="footer__btn">Отправить</button>
         </div>
     </form>
 </body>
