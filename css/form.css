@@ -185,11 +185,11 @@ h1 {
 
 .text {
     font-family: 'Roboto';
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     font-weight: 400;
-    color: #bdbdbd;
-    padding-left: 30px;
+    color: #000000;
+    padding-left: 25px;
 }
 
 .main__inner{
@@ -247,6 +247,8 @@ border: 2px solid rgb(165, 165, 187);
     height: 40px;
     border: 2px solid #ebebeb;
     margin-bottom: 10px;
+    padding-left: 25px;
+
 }
 
 .label {
